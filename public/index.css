@@ -9,7 +9,7 @@ html, body {
   background: #282828;
   color: #989898;
   /* Make the section margin space be dark */
-  border: 1px solid #989898;
+  border: 1px solid #282828;
   border-left: 0;
   border-right: 0;
 }
