@@ -14,9 +14,9 @@ html, body {
   border-right: 0;
 }
 
-section {
-  max-width: 940px;
-  margin: 32px auto;
+body section.container {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .left {
@@ -26,28 +26,6 @@ section {
 .left > p:first-child,
 .left > ol > li:first-child > p:first-child {
   margin-top: 0;
-}
-
-.clearfix:after {
-  content: ' ';
-  display: table;
-  clear: both;
-}
-
-.col-4 {
-  width: 300px;
-}
-
-.col-8 {
-  width: 620px;
-}
-
-.gutter-left {
-  margin-left: 20px;
-}
-
-.col-7 {
-  width: 540px;
 }
 
 h1, h2, h3 {
@@ -88,10 +66,11 @@ li {
 subline {
   display: block;
   margin-top: 6px;
+  margin-bottom: 12px;
 }
 
 p {
-  margin: 12px 0;
+  margin: 0 0 12px 0;
 }
 
 em {
@@ -107,7 +86,7 @@ ol, ul {
 }
 
 ol {
-  padding-left: 80px; /* gutter + column */
+  padding-left: 37px; /* gutter + column */
 }
 
 ol li {
@@ -137,6 +116,7 @@ pre {
   line-height: 19px;
   font-size: 12px;
   font-family: Menlo, Consolas, monospace;
+  white-space: pre-wrap;
 }
 
 hr {
@@ -145,17 +125,6 @@ hr {
   overflow: hidden;
   border: 0;
   border-top: 1px solid #E0E0E0;
-}
-
-.benefit {
-  /* 3 columns + 2 gutters */
-  width: 220px;
-  float: left;
-  margin-right: 20px; /* gutter */
-}
-
-.benefit:last-child {
-  margin-right: 0;
 }
 
 .icon:before {
@@ -186,18 +155,9 @@ hr {
 
 .plan {
   margin-top: 18px;
-  /* 4 columns + 3 gutters */
-  width: 300px;
-  box-sizing: border-box;
   border: 1px solid #454545;
   border-radius: 8px;
   padding: 12px 18px;
-  float: left;
-  margin-right: 20px;
-}
-
-.plan:last-child {
-  margin-right: 0;
 }
 
 .plan h3 {
@@ -213,13 +173,8 @@ hr {
 }
 
 blockquote {
-  /* 4 columns + 3 gutters */
-  width: 300px;
-  box-sizing: border-box;
-  float: left;
   padding-left: 28px;
-  margin: 0;
-  margin-right: 20px;
+  margin: 0 0 12px 0;
 }
 
 blockquote:before {
@@ -229,11 +184,7 @@ blockquote:before {
   color: #00C8FF;
   float: left;
   margin-left: -30px;
-  margin-top: -5px;
-}
-
-blockquote:last-child {
-  margin-right: 0;
+  margin-top: -15px;
 }
 
 blockquote footer {
@@ -246,10 +197,6 @@ blockquote footer:before {
   float: left;
   margin-left: -20px;
   content: '\2014';
-}
-
-.clear {
-  clear: both;
 }
 
 button {
