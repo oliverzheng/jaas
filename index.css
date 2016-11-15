@@ -57,11 +57,7 @@ h1, h2, h3 {
 h1 {
   font-size: 25px;
   font-weight: normal;
-  color: rgba(0,0,0,0);
-  /* Chrome renderrs bright text on dark bg like ass */
-  background: url(./assets/title.png) no-repeat 0px 7px;
-  margin-left: -2px;
-  padding-left: 2px;
+  color: #E0E0E0;
 }
 
 h2 {
