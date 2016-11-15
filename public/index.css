@@ -139,18 +139,40 @@ hr {
 
 .icon-megaphone:before {
   background: url(./assets/icon_megaphone.png) no-repeat 3px 5px;
+  background-size: 19px 17px;
 }
 
 .icon-person:before {
   background: url(./assets/icon_person.png) no-repeat 4px 2px;
+  background-size: 20px 20px;
 }
 
 .icon-bell:before {
   background: url(./assets/icon_bell.png) no-repeat 5px 3px;
+  background-size: 16px 20px;
 }
 
 .icon-message:before {
   background: url(./assets/icon_message.png) no-repeat 3px 3px;
+  background-size: 20px 20px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+@media only screen and (-moz-min-device-pixel-ratio: 2),
+@media only screen and (-o-min-device-pixel-ratio: 2),
+@media only screen and (min-device-pixel-ratio: 2) {
+  .icon-megaphone:before {
+    background-image: url(./assets/icon_megaphone@2x.png);
+  }
+  .icon-person:before {
+    background-image: url(./assets/icon_person@2x.png);
+  }
+  .icon-bell:before {
+    background-image: url(./assets/icon_bell@2x.png);
+  }
+  .icon-message:before {
+    background-image: url(./assets/icon_message@2x.png);
+  }
 }
 
 .plan {
