@@ -1,3 +1,4 @@
+language: generic
 install: true
 deploy:
   provider: s3
