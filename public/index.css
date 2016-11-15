@@ -283,5 +283,10 @@ button:hover {
   border-color: #989898;
 }
 
-.arial {
+.follow {
+  height: 32px; /* same as access button */
+}
+
+.hide {
+  display: none;
 }
