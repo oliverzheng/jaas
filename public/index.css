@@ -272,6 +272,17 @@ button:hover {
   text-align: center;
 }
 
+a {
+  color: #454545;
+  text-decoration: none;
+  border-bottom: 1px dashed #989898;
+}
+
+a:hover {
+  color: #282828;
+  border-color: #454545;
+}
+
 .invert a {
   color: #989898;
   text-decoration: none;
