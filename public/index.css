@@ -3,6 +3,11 @@ html, body {
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
   color: #454545;
+  background: #282828; /* for scrolling above / below page */
+}
+
+.body-container {
+  background: #FFF;
 }
 
 .invert {
